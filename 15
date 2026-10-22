@@ -1,0 +1,17 @@
+Operating System Detection using Nmap Program:
+nmap -O -sVx.x.x.x
+Starting Nmap 7.92 ( https://nmap.org ) at 2021-09-17 11:02 PDT Nmap scan report for x.x.x.x
+Host is up (0.22s latency).
+Not shown: 994 closed tcp ports (reset)
+PORT	STATE SERVICE	VERSION
+135/tcp open msrpc	Microsoft Windows RPC 139/tcp open netbios-ssn Microsoft Windows netbios-ssn 445/tcp open microsoft-ds?
+2701/tcp open cmrcservice Microsoft Configuration Manager Remote Control service (CmRcService.exe)
+3306/tcp open mysql	MySQL 5.1.60-community-log 3389/tcp open ms-wbt-server Microsoft Terminal Services
+Aggressive OS guesses: Microsoft Windows Server 2016 (93%),
+Microsoft Windows Server 2008 R2 SP1 (92%), Microsoft Windows Server 2012 R2 (91%),
+Microsoft Windows 10 1607 (90%), Microsoft Windows Server 2008 R2 (90%), Microsoft Windows Server 2012 (89%), Microsoft Windows Server 2012 or
+Windows Server 2012 R2 (89%), Microsoft Windows Server 2008 R2 or Windows 8 (87%), Microsoft Windows Server 2008 R2 SP1 or Windows 8 (87%), Microsoft Windows 7 SP1 (86%)
+No exact OS matches for host (test conditions non-ideal). Network Distance: 18 hops
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 33.77 seconds
